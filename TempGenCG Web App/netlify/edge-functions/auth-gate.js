@@ -30,12 +30,12 @@ function loginPage(error) {
 <body>
   <div class="card">
     <div class="title">JobPost Studio</div>
-    <div class="sub">এই পেজটি দেখতে হলে পাসওয়ার্ড দিন</div>
+    <div class="sub">To Visit This Site Enter The Password</div>
     <form method="POST">
       <input type="password" name="password" placeholder="Password" autofocus required>
       <button type="submit">Enter</button>
     </form>
-    ${error ? `<div class="err">ভুল পাসওয়ার্ড, আবার চেষ্টা করুন</div>` : ""}
+    ${error ? `<div class="err">Wrong Password, Try Again</div>` : ""}
   </div>
 </body>
 </html>`;
