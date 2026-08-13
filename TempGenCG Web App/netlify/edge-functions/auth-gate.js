@@ -29,7 +29,7 @@ function loginPage(error) {
 </head>
 <body>
   <div class="card">
-    <div class="title">JobPost Studio</div>
+    <div class="title">TempGen | Capgemini</div>
     <div class="sub">To Visit This Site Enter The Password</div>
     <form method="POST">
       <input type="password" name="password" placeholder="Password" autofocus required>
